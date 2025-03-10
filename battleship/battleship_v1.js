@@ -21,7 +21,7 @@ while(isSunk == false){
         guesses = guesses + 1;
     
         if (guess == location1 || guess == location2 || guess == location3) {
-            alert('HIT!')
+            alert("Direct hit! Keep raining down salvos on them!")
             hits = hits + 1;
 
             if (hits == 3) {
